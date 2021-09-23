@@ -9,7 +9,11 @@ export class LoginTeamComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+
+  ngOnInit() {
+  }
+  onClickSubmit(result:any) {
+     console.log("You have entered : " + result.username + "password is" + result.password);
   }
 
 }

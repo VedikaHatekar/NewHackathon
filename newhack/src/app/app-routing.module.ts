@@ -9,10 +9,14 @@ import { TeamComponent } from './team/team.component';
 
 
 const routes: Routes = [
+
   { path: 'login-player', component: LoginPlayerComponent},
   { path: 'login-team', component: LoginTeamComponent},
+  // { path: '',   redirectTo: '/login-player', pathMatch: 'full' },
+  // { path: '',   redirectTo: '/login-team', pathMatch: 'full' },
   { path: 'view-all-players', component: TeamComponent},
-  { path: 'player-component', component: PlayerComponent },
+  { path: 'view-player', component: PlayerComponent },
+
 ];
 
 

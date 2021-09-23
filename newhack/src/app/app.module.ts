@@ -8,6 +8,7 @@ import { PlayerComponent } from './player/player.component';
 import { TeamComponent } from './team/team.component';
 import { LoginTeamComponent } from './login-team/login-team.component';
 import { LoginPlayerComponent } from './login-player/login-player.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { LoginPlayerComponent } from './login-player/login-player.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
